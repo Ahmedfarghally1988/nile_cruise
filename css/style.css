@@ -5374,6 +5374,113 @@ select {
   opacity: 1;
 }
 
+.breadcrumb-item a ,.breadcrumb-item {
+    color:#fff;
+}
+.breadcrumb-item.active {
+    color: #aa8453;
+}
+
+.content_bestdeals .accordion-item{
+    border: 0;
+}
+.content_bestdeals .accordion-button:not(.collapsed) {
+    color: #000;
+    background-color: transparent;
+    box-shadow: 0 0 0;
+}
+
+.title-accordion-item{
+    margin: 30px 0 0 0;
+}
+
+.item_price_deals{
+    border-bottom: 1px solid #ddd;
+    padding: 0 15px;
+}
+
+.check_in_deals{
+    font-size: 14px;
+    font-weight: bold;
+}
+.check_out_deals{
+    font-size: 14px;
+    font-weight: bold;
+}
+.sale_deals{
+    background: #aa8453;
+    color: #fff;
+    font-size: 14px;
+    width: 75px;
+    height: 30px;
+    text-align: center;
+    border-radius: 25px;
+    line-height: 30px;
+}
+.available_deals{
+
+}
+.available_deals small{
+
+}
+.price_deals strong{
+    font-size: 19px;
+}
+
+.price_deals strong small{
+    text-decoration: line-through;
+    color: #a39a9a;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.head_beast_deals{
+    margin: 30px 0 0 0;
+    background: #eee;
+    overflow: hidden;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.content_deals{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 55px 15px 15px;
+    background: #f5f5f5;
+    margin-bottom: 5px;
+}
+.content_deals span.name_room{
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 38px;
+    width: 25%;
+}
+.content_deals .img_room{
+    display: flex;
+    gap: 10px;
+}
+.content_deals .img_room img{
+    width: 50px;
+    height: 40px;
+}
+.content_deals span.price_cont_deals{
+    font-weight: 600;
+    font-size: 19px;
+}
+.content_deals span.booking_deals a{
+    background: #aa8453;
+    color: #fff;
+    line-height: 30px;
+    padding: 5px 20px;
+    border-radius: 25px;
+}
+.content_deals span.booking_deals a:hover{
+    background: #000;
+}
+.select_dates label{
+    font-size: 14px;
+}
+
 
 /* ======= Responsive style ======= */
 @media (min-width: 1200px) {
